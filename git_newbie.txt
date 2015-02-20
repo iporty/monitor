@@ -1,0 +1,17 @@
+Basic workflow
+
+1. Clone 
+git clone https://github.com/iporty/monitor
+
+git remote add upstream https://github.com/iporty/monitor
+
+2. Commit changes
+
+git commit -a 
+? Only the first commit? git remote add origin https://github.com/iporty/monitor 
+git push -u origin master
+git add .
+
+
+
+
