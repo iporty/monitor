@@ -1,2 +1,2 @@
 # monitor
-Video based monitoring
+Video based monitoring.
