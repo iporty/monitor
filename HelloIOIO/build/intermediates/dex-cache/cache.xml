@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/build/intermediates/exploded-aar/HelloIOIO/iOIOLibAndroid/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="96885e347d1a267498d992e9b6f2dbc5a6a01b3e">
+        <dex dex="/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/build/intermediates/pre-dexed/debug/classes-a39eeb55694c62b037e4118edfe0341b6646c24f.jar" />
+    </item>
+    <item
+        jar="/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/build/intermediates/exploded-aar/HelloIOIO/iOIOLibAndroidDevice/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6cdc839af91f639381f7e504e03b5f299972eb0d">
+        <dex dex="/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/build/intermediates/pre-dexed/debug/classes-20547d5ccf76e8f748e86ccf18dcca69c19afe0e.jar" />
+    </item>
+    <item
+        jar="/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/build/intermediates/exploded-aar/HelloIOIO/iOIOLibBT/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4d5c5987843001b22117e0e6fbca5c587a554189">
+        <dex dex="/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/build/intermediates/pre-dexed/debug/classes-140e1b9ddd6c724d8e957640f1e9e7be15e84d46.jar" />
+    </item>
+    <item
+        jar="/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/build/intermediates/exploded-aar/HelloIOIO/iOIOLibAccessory/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c07fdd6a0f6fdf2fc4ff9bb4d4b31c9b163ad85">
+        <dex dex="/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/build/intermediates/pre-dexed/debug/classes-05e5208275b7446f50d84944d8eaedf307d82719.jar" />
+    </item>
+
+</items>

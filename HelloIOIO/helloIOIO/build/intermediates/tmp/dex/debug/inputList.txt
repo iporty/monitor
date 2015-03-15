@@ -1,0 +1,5 @@
+/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/build/intermediates/classes/debug
+/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/build/intermediates/pre-dexed/debug/classes-140e1b9ddd6c724d8e957640f1e9e7be15e84d46.jar
+/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/build/intermediates/pre-dexed/debug/classes-05e5208275b7446f50d84944d8eaedf307d82719.jar
+/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/build/intermediates/pre-dexed/debug/classes-20547d5ccf76e8f748e86ccf18dcca69c19afe0e.jar
+/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/build/intermediates/pre-dexed/debug/classes-a39eeb55694c62b037e4118edfe0341b6646c24f.jar

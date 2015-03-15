@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <usb-device vendor-id="6991" product-id="8" />
+</resources>
+<!-- From: file:/Users/iporteous/Documents/android/ioio/HelloIOIO/iOIOLibAndroidDevice/src/main/res/xml/device_filter.xml --><!-- From: file:/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/build/intermediates/exploded-aar/HelloIOIO/iOIOLibAndroidDevice/unspecified/res/xml/device_filter.xml -->
