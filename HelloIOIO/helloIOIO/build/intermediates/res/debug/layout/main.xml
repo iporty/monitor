@@ -9,6 +9,26 @@
     android:layout_height="wrap_content" 
     android:text="@string/hello"
     android:id="@+id/title"/>
-<ToggleButton android:text="ToggleButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/button" android:enabled="false"></ToggleButton>
+<ToggleButton
+    android:text="ToggleButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/button"
+    android:enabled="false">
+</ToggleButton>
+<ToggleButton
+    android:text="HeatToggleButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/heat_button"
+    android:enabled="false">
+</ToggleButton>
+<ToggleButton
+    android:text="HeatToggleButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/light_button"
+    android:enabled="false">
+</ToggleButton>
 </LinearLayout>
-<!-- From: file:/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/src/main/res/layout/main.xml -->
+<!-- From: file:/Users/iporteous/Documents/android/ioio/Repository/monitor/HelloIOIO/helloIOIO/src/main/res/layout/main.xml -->

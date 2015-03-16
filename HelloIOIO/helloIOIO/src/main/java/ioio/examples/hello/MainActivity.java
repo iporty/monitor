@@ -22,6 +22,8 @@ import android.widget.ToggleButton;
  */
 public class MainActivity extends IOIOActivity {
 	private ToggleButton button_;
+    private ToggleButton heat_button_;
+    private ToggleButton light_button_;
 
 	/**
 	 * Called when the activity is first created. Here we normally initialize
@@ -32,7 +34,10 @@ public class MainActivity extends IOIOActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 		button_ = (ToggleButton) findViewById(R.id.button);
-	}
+        heat_button_ = (ToggleButton) findViewById(R.id.heat_button);
+        light_button_ = (ToggleButton) findViewById(R.id.light_button);
+
+    }
 
 	/**
 	 * This is the thread on which all the IOIO activity happens. It will be run
@@ -44,6 +49,8 @@ public class MainActivity extends IOIOActivity {
 	class Looper extends BaseIOIOLooper {
 		/** The on-board LED. */
 		private DigitalOutput led_;
+        private DigitalOutput light_;
+        private DigitalOutput heat_;
 
 		/**
 		 * Called every time a connection with IOIO has been established.
@@ -58,6 +65,8 @@ public class MainActivity extends IOIOActivity {
 		protected void setup() throws ConnectionLostException {
 			showVersions(ioio_, "IOIO connected!");
 			led_ = ioio_.openDigitalOutput(0, true);
+            light_ = ioio_.openDigitalOutput(18, true);
+            heat_ = ioio_.openDigitalOutput(19, true);
 			enableUi(true);
 		}
 
@@ -74,6 +83,8 @@ public class MainActivity extends IOIOActivity {
 		@Override
 		public void loop() throws ConnectionLostException, InterruptedException {
 			led_.write(!button_.isChecked());
+            light_.write(!light_button_.isChecked());
+            heat_.write(!heat_button_.isChecked());
 			Thread.sleep(100);
 		}
 
@@ -97,7 +108,7 @@ public class MainActivity extends IOIOActivity {
 		public void incompatible() {
 			showVersions(ioio_, "Incompatible firmware version!");
 		}
-}
+    }
 
 	/**
 	 * A method to create our IOIO thread.
@@ -142,10 +153,14 @@ public class MainActivity extends IOIOActivity {
 				if (enable) {
 					if (numConnected_++ == 0) {
 						button_.setEnabled(true);
+                        heat_button_.setEnabled(true);
+                        light_button_.setEnabled(true);
 					}
 				} else {
 					if (--numConnected_ == 0) {
 						button_.setEnabled(false);
+                        heat_button_.setEnabled(false);
+                        light_button_.setEnabled(false);
 					}
 				}
 			}

@@ -1,5 +1,5 @@
-/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/build/intermediates/classes/debug
-/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/build/intermediates/pre-dexed/debug/classes-140e1b9ddd6c724d8e957640f1e9e7be15e84d46.jar
-/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/build/intermediates/pre-dexed/debug/classes-05e5208275b7446f50d84944d8eaedf307d82719.jar
-/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/build/intermediates/pre-dexed/debug/classes-20547d5ccf76e8f748e86ccf18dcca69c19afe0e.jar
-/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/build/intermediates/pre-dexed/debug/classes-a39eeb55694c62b037e4118edfe0341b6646c24f.jar
+/Users/iporteous/Documents/android/ioio/Repository/monitor/HelloIOIO/helloIOIO/build/intermediates/classes/debug
+/Users/iporteous/Documents/android/ioio/Repository/monitor/HelloIOIO/helloIOIO/build/intermediates/pre-dexed/debug/classes-31691cd5a448f6389b918fb928e3ece6918dd65e.jar
+/Users/iporteous/Documents/android/ioio/Repository/monitor/HelloIOIO/helloIOIO/build/intermediates/pre-dexed/debug/classes-ce2c32926fc984ea5cab4a713bac6a32c91ca399.jar
+/Users/iporteous/Documents/android/ioio/Repository/monitor/HelloIOIO/helloIOIO/build/intermediates/pre-dexed/debug/classes-21423ed8c8ad3a3bd49e8f416ba330bc08b96a31.jar
+/Users/iporteous/Documents/android/ioio/Repository/monitor/HelloIOIO/helloIOIO/build/intermediates/pre-dexed/debug/classes-db731e3ee2bcc483ecd72c491f4595fb66a71647.jar

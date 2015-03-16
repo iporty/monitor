@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/iporteous/Documents/android/ioio/HelloIOIO/helloIOIO/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/iporteous/Documents/android/ioio/Repository/monitor/HelloIOIO/helloIOIO/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">Hello IOIO</string>
     <string name="hello">Hello, IOIO User!</string>
