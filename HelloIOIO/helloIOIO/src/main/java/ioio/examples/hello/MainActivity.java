@@ -21,19 +21,19 @@ import android.widget.ToggleButton;
  * HelloIOIOPower example.
  */
 public class MainActivity extends IOIOActivity {
-	private ToggleButton button_;
+    private ToggleButton button_;
     private ToggleButton heat_button_;
     private ToggleButton light_button_;
 
-	/**
-	 * Called when the activity is first created. Here we normally initialize
-	 * our GUI.
-	 */
-	@Override
-	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main);
-		button_ = (ToggleButton) findViewById(R.id.button);
+    /**
+     * Called when the activity is first created. Here we normally initialize
+     * our GUI.
+     */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        button_ = (ToggleButton) findViewById(R.id.button);
         heat_button_ = (ToggleButton) findViewById(R.id.heat_button);
         light_button_ = (ToggleButton) findViewById(R.id.light_button);
 

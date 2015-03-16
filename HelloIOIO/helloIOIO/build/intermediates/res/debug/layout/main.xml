@@ -16,15 +16,26 @@
     android:id="@+id/button"
     android:enabled="false">
 </ToggleButton>
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Heat"
+    android:id="@+id/heat_label"/>
 <ToggleButton
     android:text="HeatToggleButton"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:id="@+id/heat_button"
-    android:enabled="false">
+    android:enabled="false"
+    android:checked="false">
 </ToggleButton>
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Light"
+    android:id="@+id/light_label"/>
 <ToggleButton
-    android:text="HeatToggleButton"
+    android:text="LightToggleButton"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:id="@+id/light_button"
